@@ -1,4 +1,6 @@
 # README
+One Month Rails
+This is a the pinteresting sample application for (*One Month Rails*)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
