@@ -6,7 +6,9 @@ class PinsController < ApplicationController
   # GET /pins
   # GET /pins.json
   def index
-    @pins = Pin.all
+    @pins = Pin.all.order("created_at DESC")
+    #@pins = Pin.all.order("created_at DESC").limit 1  #note example of a limit for the page
+
   end
 
   # GET /pins/1
